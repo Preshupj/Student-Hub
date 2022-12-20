@@ -30,6 +30,17 @@ start date which in a way helps students act like a bridge before they even meet
 
 ** Relational Model** 
 
-![image](https://user-images.githubusercontent.com/66838658/208557872-42925c0b-2816-421f-aebc-aa32af00168d.png)
-![image](https://user-images.githubusercontent.com/66838658/208557898-082d6842-c091-4d5b-b984-3f8940430917.png)
+Student (Studentid, Name, Ph_no, Email, dateofbirth, gender)
+Application_details (App_id, Stud_id, College_id, departmentid, status.)
+University_and_college (College_id, college_name, campus, email)
+Department (Department_id, College_id, Depart_name, email)
+Offers(departmentid, courseid)
+Course (Course_id, Course_name, Professor_id)
+Class_room (CRN_NO, course_id, studentid, Classschedule, Class_type, groupname)
+Professor (Professor_id, Professor_name, email, Office_hours)
+Teaching_assistant(taid, taname, email, officehours)
+Sends(studentid, message_id)
+Stores(crnno, message_id)
+Message (message_id, content, Message_time, conversation_id)
+Housing_and_food(Stud_id, House_type, Food_choice, rent_preference, Zipcode_preference)
 
