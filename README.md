@@ -20,4 +20,10 @@ will largely help international students as most of them suffer due to the lack 
 with legitimate information. This system will help students be connected well before their college 
 start date which in a way helps students act like a bridge before they even meet in person.
 
+**EER MODEL**
+
 ![image](https://user-images.githubusercontent.com/66838658/208557684-91098e58-f27d-491e-af40-b231ada73e9e.png)
+
+**UML Diagram**
+
+![image](https://user-images.githubusercontent.com/66838658/208557744-b3d5b66d-84da-4c80-95dc-ba0ebc8f9670.png)
