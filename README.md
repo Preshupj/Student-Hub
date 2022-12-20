@@ -31,6 +31,7 @@ start date which in a way helps students act like a bridge before they even meet
 ** Relational Model** 
 
 Student (Studentid, Name, Ph_no, Email, dateofbirth, gender)
+
 Application_details (App_id, Stud_id, College_id, departmentid, status.)
 University_and_college (College_id, college_name, campus, email)
 Department (Department_id, College_id, Depart_name, email)
