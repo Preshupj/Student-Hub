@@ -20,6 +20,17 @@ will largely help international students as most of them suffer due to the lack 
 with legitimate information. This system will help students be connected well before their college 
 start date which in a way helps students act like a bridge before they even meet in person.
 
+**Objective:
+
+To desgin a student data model which facilatates on how the university functions:
+
+1. Data Extraction from created google forms
+2. EEE Model
+3. UML diagram
+4. Database Access via Python
+5. SQL Implementation
+6. NoSQL Mongo DB implementation   
+
 **EER MODEL**
 
 ![image](https://user-images.githubusercontent.com/66838658/208557684-91098e58-f27d-491e-af40-b231ada73e9e.png)
@@ -28,7 +39,7 @@ start date which in a way helps students act like a bridge before they even meet
 
 ![image](https://user-images.githubusercontent.com/66838658/208557744-b3d5b66d-84da-4c80-95dc-ba0ebc8f9670.png)
 
-** Relational Model** 
+**Relational Model** 
 
 Student (Studentid, Name, Ph_no, Email, dateofbirth, gender)  
 Application_details (App_id, Stud_id, College_id, departmentid, status)  
@@ -43,4 +54,33 @@ Sends(studentid, message_id)
 Stores(crnno, message_id)  
 Message (message_id, content, Message_time, conversation_id)  
 Housing_and_food(Stud_id, House_type, Food_choice, rent_preference, Zipcode_preference)  
+
+
+**Database Access via Python:**
+
+The database is accessed using Python and visualization of analyzed data is shown below. The 
+connection of MySQL to Python is done using the MySQL connector, followed by the cursor.
+Execute to run and fetch from the query, followed by converting the list into a data frame using 
+pandas’ library and using matplotlib to plot the graphs for the analytics.   
+
+Graph1:   
+The plot shows the distribution of students living in a particular zip code based on a   
+particular course. (Here course ‘AST’ was chosen)  
+![image](https://user-images.githubusercontent.com/66838658/208558318-39eb4e87-5afb-4104-b4d5-654e3f83a8a0.png)   
+
+Graph 2:  
+This bar graph shows the number of students in each college from Boston campus.  
+![image](https://user-images.githubusercontent.com/66838658/208558353-271e378a-9d12-4541-ad69-2d8bbd6a9f14.png)
+
+Graph3:  
+The pie chart shows the distribution of students living in each zip code based on their   
+spending preferences. Here student spending is divided into three groups ‘Economical’,   
+Budget Friendly, and Luxury.  
+![image](https://user-images.githubusercontent.com/66838658/208558389-85c5afb5-3d27-45bc-bf16-46e19468e657.png)
+![image](https://user-images.githubusercontent.com/66838658/208558405-2452c897-f537-45f1-8616-df18a073eb91.png)
+
+
+
+
+
 
