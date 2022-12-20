@@ -27,3 +27,9 @@ start date which in a way helps students act like a bridge before they even meet
 **UML Diagram**
 
 ![image](https://user-images.githubusercontent.com/66838658/208557744-b3d5b66d-84da-4c80-95dc-ba0ebc8f9670.png)
+
+** Relational Model** 
+
+![image](https://user-images.githubusercontent.com/66838658/208557872-42925c0b-2816-421f-aebc-aa32af00168d.png)
+![image](https://user-images.githubusercontent.com/66838658/208557898-082d6842-c091-4d5b-b984-3f8940430917.png)
+
