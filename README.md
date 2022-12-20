@@ -19,3 +19,5 @@ applied to a particular university and their background, which includes their pr
 will largely help international students as most of them suffer due to the lack of a proper channel
 with legitimate information. This system will help students be connected well before their college 
 start date which in a way helps students act like a bridge before they even meet in person.
+
+![image](https://user-images.githubusercontent.com/66838658/208557684-91098e58-f27d-491e-af40-b231ada73e9e.png)
