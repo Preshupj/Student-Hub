@@ -63,16 +63,16 @@ connection of MySQL to Python is done using the MySQL connector, followed by the
 Execute to run and fetch from the query, followed by converting the list into a data frame using 
 pandas’ library and using matplotlib to plot the graphs for the analytics.   
 
-_ _Graph1_ _:   
+***Graph1***:   
 The plot shows the distribution of students living in a particular zip code based on a   
 particular course. (Here course ‘AST’ was chosen)  
 ![image](https://user-images.githubusercontent.com/66838658/208558318-39eb4e87-5afb-4104-b4d5-654e3f83a8a0.png)   
 
-_ _Graph 2:  
+***Graph 2:***  
 This bar graph shows the number of students in each college from Boston campus.  
 ![image](https://user-images.githubusercontent.com/66838658/208558353-271e378a-9d12-4541-ad69-2d8bbd6a9f14.png)
 
-Graph3:  
+***Graph3:***  
 The pie chart shows the distribution of students living in each zip code based on their   
 spending preferences. Here student spending is divided into three groups ‘Economical’,   
 Budget Friendly, and Luxury.  
